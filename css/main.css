@@ -13,10 +13,12 @@ header{
     width: 100%;
     height: auto;
 }
-.art{
-    padding-top: 6rem;
+.slogan{
+    padding-top: 7rem;
 }
-.social{
-    position: relative;
-    left: 8rem;
+.blog{
+    margin-right: 3rem;
+}
+.blog-title{
+    margin-top: 0;
 }

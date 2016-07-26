@@ -5,7 +5,7 @@ body{
 	color: #000;
 }
 /*font size and family*/
-p, a, li{
+p, a, li, figcaption{
 	font-size: 1rem;
 }
 h1{
@@ -43,6 +43,9 @@ h6{
 .col-1-5{
 	width: 20%
 }
+.col-3-4{
+	width: 75%;
+}
 /*padding*/
 .padding-lg{
 	padding: 1rem ;
@@ -73,7 +76,6 @@ textarea{
 }
 /*images*/
 img{
-	width: 80%;
 	height: auto;
 	max-width: 100%;
 }
@@ -117,8 +119,4 @@ ul{
 /*text-align*/
 .center{
 	text-align: center;
-}
-/*margin*/
-.auto{
-	margin: auto;
 }
