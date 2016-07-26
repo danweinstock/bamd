@@ -1,0 +1,22 @@
+li a{
+    padding: 1rem;
+}
+.hero{
+    background-image: url("../images/skyline.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 30rem;
+    max-width: 100%;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.art{
+    padding-top: 6rem;
+}
+.social{
+    position: relative;
+    left: 8rem;
+}

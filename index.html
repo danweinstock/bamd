@@ -2,118 +2,130 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>B.A.M.D. Homepage</title>
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type= "text/css" href="css/main.css">
+		<link rel="stylesheet" href="css/global.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+		<script src="https://use.fontawesome.com/f93e944081.js"></script>
 	</head>
 	<body>
-		<header id="header">
-			<figure>
-				<img src="http://placehold.it/150x100" alt="Placeholder image">			
-			</figure>
+		
+			<header class="clear-after fixed" id="header">
+				<figure class="left">
+					<img src="http://placehold.it/150x100" alt="Placeholder image">			
+				</figure>
+				<nav class="right">
+					<ul>
+						<li class="left"><a href="#main">Home</a></li>
+						<li class="left"><a href="#about-us">About Us</a></li>
+						<li class="left"><a href="#projects">Products</a></li>
+						<li class="left"><a href="#blog">Blog</a></li>
+						<li class="left"><a href="#contact">Contact</a></li>	
+					</ul>
+				</nav>
+			</header>
+			<section class="hero main clear-after center" id="main">
+					<h1 class="art">The Art of Healthy Web Development</h1>
+			</section>
 
-			<nav>
-				<ul>
-					<li><a href="#main">Home</a></li>
-					<li><a href="#about-us">About Us</a></li>
-					<li><a href="#projects">Products</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section class="main" id="main">
-				<h1>The Art of Healthy Web Development</h1>
-		</section>
-
-		<section class="about-us" id="about-us">
+		<section class="about-us clear-after" id="about-us">
 			<div>
-				<h2>About Us</h2>
-				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, delectus, rem! Error molestias, dolor quidem veniam labore incidunt quasi quod repellat voluptas, reprehenderit, quas enim doloremque dicta dolorum ratione facilis.</h3>
-				<div class="container">
-					<div class="col-1-4">
+				<h1 class="center">About Us</h1>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+				<div class="col-1-1 clear-after">
+					<div class="col-1-4 left">
 						<figure>
-							<img src="" alt="Ala">
+							<img class="round block auto" src="https://placekitten.com/200/200" alt="Ala">
 						</figure>
-						<p></p>
-						<p></p>
-						<a href="#"><img src="" alt="Ala LinkedIn"></a>
-						<a href="#"><img src="" alt="Ala Twitter"></a>
+						<p class="center">Ala</p>
+						<p class="center">Mindfulness Guru</p>
+						<div class="social">
+							<a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+						</div>
 					</div>
-					<div class="col-1-4">
+					<div class="col-1-4 left">
 						<figure>
-							<img src="" alt="Brandon">
+							<img class="round block auto" src="https://placekitten.com/200/200" alt="Brandon">
 						</figure>
-						<p></p>
-						<p></p>
-						<a href=""><img src="" alt="Brandon LinkedIn"></a>
-						<a href=""><img src="" alt="Brandon Twitter"></a>
+						<p class="center">Branden</p>
+						<p class="center">Soccer Aficianado</p>
+						<div class="social">
+							<a href=""><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+						</div>
 					</div>
-					<div class="col-1-4">
+					<div class="col-1-4 left">
 						<figure>
-							<img src="" alt="Dan">
+							<img class="round block auto" src="https://placekitten.com/200/200" alt="Dan">
 						</figure>
-						<p></p>
-						<p></p>
-						<a href="#"><img src="" alt="Dan LinkedIn"></a>
-						<a href="#"><img src="" alt="Dan Twitter"></a>
+						<p class="center">Dan</p>
+						<p class="center">Urban Explorer</p>
+						<div class="social">
+							<a class="center" href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+							<a class="center" href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						</div>
 					</div>
-					<div class="col-1-4">
+					<div class="col-1-4 left">
 						<figure>
-							<img src="" alt="Melissa">
+							<img class="round block auto" src="https://placekitten.com/200/200" alt="Melissa">
 						</figure>
-						<p></p>
-						<p></p>
-						<a href="#"><img src="" alt="Merissa Linkedin"></a>
-						<a href=""><img src="" alt="Merissa Twitter"></a>
+						<p class="center">Marissa</p>
+						<p class="center">Yoga Master</p>
+						<div class="social">
+							<a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+							<a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+						</div>
 					</div>
 					
 				</div>
 			</div>	
 		</section>
-		<section class="projects" id="projects">
-			<div class="container">
-				<div class="col-1-4">
+		<h1>Recent Projects</h1>
+		<section class="projects clear-after" id="projects">
+			<div class="col-1-1 clear-after">
+				<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 1">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 2">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 3">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 4">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 5">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 6">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 7">
 				</figure>
 				<p></p>
 			</div>
-			<div class="col-1-4">
+			<div class="col-1-4 left">
 				<figure>
 					<img src="" alt="Project 8">
 				</figure>
@@ -121,7 +133,7 @@
 			</div>
 			</div>
 		</section>
-		<section class="blog" id="blog">
+		<section class="blog container" id="blog">
 			<h2>Our Blog</h2>
 			<div>
 				<figure>
@@ -156,20 +168,26 @@
 				<a href="#">Read More</a>
 			</div>
 		</section>
-		<section class="contact" id="contact">
+		<section class="contact container" id="contact">
 			<h2>Contact Us</h2>
 			<map name=""></map>
 			<p></p>
 			<p></p>
 			<p></p>
 			<form>
-				<input type="text">
-				<input type="text">
-				<select name="" id=""></select>
-				<textarea rows="10" cols="30"></textarea>
+				<label for="name">Name</label>
+				<input type="text" name='name' id='name' /><br>
+				<label for="email">Email</label>
+				<input type="text" name='email' id='email'><br>
+				<label for="services">Services</label>
+				<select name="services" id=""></select><br>
+				<label for="message">Message</label>
+				<textarea></textarea>
 				<p>Subscribe to our newsletter</p>
-				  <input type="radio" name="letter" value="yes"> Yes
-	  			<input type="radio" name="letter" value="no"> No
+					<label for="yes">Yes</label>
+				  <input type="radio" name="letter" value="yes">
+				  <label for="no">No</label>
+	  			<input type="radio" name="letter" value="no">
 				  <input type="submit" value="Submit">
 			</form>
 		</section>
