@@ -22,3 +22,13 @@ header{
 .blog-title{
     margin-top: 0;
 }
+.blog-image{
+ margin: auto;
+ display: block;
+ height: 200px;
+ width: 200px;
+}
+figure{
+    margin-left: 0;
+    margin-right: 0;
+}
