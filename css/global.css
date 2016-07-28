@@ -59,7 +59,7 @@ h6{
 .padding-lg{
 	padding: 5rem ;
 }
-.full-padding-md{
+.padding-md{
 	padding:1rem;
 }
 .padding-sm{
@@ -136,15 +136,30 @@ ul{
 .top{
 	vertical-align: top;
 }
-.mobile-hide, .full-padding-md{
+.mobile-hide{
 	display: block;
 }
 
-@media screen and (max-width: 610px){
+@media all and (max-width: 610px){
 	.mobile-hide{
 		display: none;
 	}
 	.padding-mobile-md{
 		padding: 0.6rem;
+	}
+	.absolute-mobile{
+		position: absolute;
+	}
+	.h3-mobile{
+		font-size: 2rem;
+	}
+	.col-1-2-mobile{
+		width: 50%;
+	}
+	.col-1-3-mobile{
+		width: calc(100%/3);
+	}
+	.project-img-mobile{
+		width: 80%;
 	}
 }
