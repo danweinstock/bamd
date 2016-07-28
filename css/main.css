@@ -40,6 +40,11 @@ figure{
     height: 80%;
     margin-left: 10%;
 }
+iframe{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
 figure img{
     transition: box-shadow 2s;
 }
