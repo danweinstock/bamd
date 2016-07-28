@@ -13,6 +13,7 @@ p, a, li, figcaption{
 h1{
 	font-size: 4rem;
 	font-family: 'Roboto Slab', serif;
+	margin-top: 0;
 }
 h2{
 	font-size: 3.5rem;
