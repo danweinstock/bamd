@@ -14,9 +14,11 @@ h1{
 	font-size: 4rem;
 	font-family: 'Roboto Slab', serif;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 h2{
 	font-size: 3.5rem;
+	margin-top: 0;
 }
 h3{
 	font-size: 3rem;
@@ -74,6 +76,9 @@ h6{
 }
 .margin-sm{
 	margin:0.3rem;
+}
+.margin-bottom-lg{
+	margin-bottom: 1rem;
 }
 .auto{
 	margin: auto;
@@ -147,11 +152,29 @@ ul{
 	.padding-mobile-md{
 		padding: 0.6rem;
 	}
+	.no-padding-md{
+		padding:0;
+	}
+	.bottom-margin-mobile{
+		margin-bottom: 0.5rem;
+	}
+	.top-margin-mobile{
+		margin-top: 1rem;
+	}
+	.left-margin-mobile-sm{
+		margin-left: 1rem;
+	}
+	.left-margin-mobile-md{
+		margin-left: 2rem;
+	}
 	.absolute-mobile{
 		position: absolute;
 	}
 	.h3-mobile{
 		font-size: 2rem;
+	}
+	.col-1-1-mobile{
+		width: 100%;
 	}
 	.col-1-2-mobile{
 		width: 50%;
@@ -161,5 +184,11 @@ ul{
 	}
 	.project-img-mobile{
 		width: 80%;
+	}
+	.no-float{
+		float:none;
+	}
+	.mobile-inline{
+		display: inline;
 	}
 }

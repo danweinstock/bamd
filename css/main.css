@@ -9,6 +9,7 @@
 header{
     width: 100%;
     height: auto;
+    background-color: rgba(224, 255, 255, 0.7);
 }
 .slogan{
     padding-top: 7rem;
