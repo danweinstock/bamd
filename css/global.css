@@ -141,19 +141,9 @@ ul{
 .top{
 	vertical-align: top;
 }
-<<<<<<< HEAD
-.mobile-hide{
-	display: block;
-}
 
 @media all and (max-width: 610px){
-	.mobile-hide{
-		display: none;
-	}
-=======
 
-@media all and (max-width: 610px){
->>>>>>> master
 	.padding-mobile-md{
 		padding: 0.6rem;
 	}
