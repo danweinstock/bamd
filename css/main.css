@@ -23,8 +23,8 @@ header{
 .blog-image{
  margin: auto;
  display: block;
- height: auto;
  width: 10rem;
+ height: auto;
 }
 figure{
     margin-left: 0;

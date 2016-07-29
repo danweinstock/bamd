@@ -141,14 +141,8 @@ ul{
 .top{
 	vertical-align: top;
 }
-.mobile-hide{
-	display: block;
-}
 
 @media all and (max-width: 610px){
-	.mobile-hide{
-		display: none;
-	}
 	.padding-mobile-md{
 		padding: 0.6rem;
 	}
