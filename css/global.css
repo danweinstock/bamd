@@ -7,7 +7,7 @@ body{
 	color: #000;
 }
 /*font size and family*/
-p, a, li, figcaption{
+p, a, li, figcaption, button{
 	font-size: 1rem;
 }
 h1{
@@ -68,6 +68,9 @@ h6{
 	padding:0.5rem;
 }
 /*margins*/
+.margin-left-xl{
+	margin-left: 5rem;
+}
 .margin-lg{
 	margin: 1rem;
 }
@@ -83,10 +86,6 @@ h6{
 .auto{
 	margin: auto;
 }
-/*inputs*/
-/*input[type=text] {
-    border: 1px solid red;
-}*/
 textarea{
 	width: 30%;
 	height: 5rem;
@@ -120,7 +119,7 @@ img{
 /*clear formatting*/
 a{
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 ul{
 	list-style-type: none;
@@ -141,9 +140,18 @@ ul{
 .top{
 	vertical-align: top;
 }
-
+button{
+  background-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+  background-repeat: repeat-x;
+  border-color: #ccc;
+}
+button:hover{
+	background-color: #e0e0e0;
+  background-position: 0 -15px;
+  box-shadow: 0.2rem 0.2rem 0.1rem #888888;
+  transition: box-shadow 0.5s;
+}
 @media all and (max-width: 610px){
-
 	.padding-mobile-md{
 		padding: 0.6rem;
 	}

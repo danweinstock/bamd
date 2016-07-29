@@ -9,7 +9,14 @@
 header{
     width: 100%;
     height: auto;
-    background-color: rgba(224, 255, 255, 0.7);
+    background-color: #000;
+}
+header.active {
+    background: #fff;
+}
+
+li a.li-active{
+    color: #000;
 }
 .slogan{
     padding-top: 7rem;
@@ -44,16 +51,10 @@ iframe{
     height: 100%;
     width: 100%;
     border: 0;
-
-}
-iframe{
-    height: 100%;
-    width: 100%;
-    border: 0;
 }
 figure img{
     transition: box-shadow 2s;
 }
 figure img:hover{
-    box-shadow: 1rem 1rem 0.5rem black;
+    box-shadow: 0.7rem 0.7rem 0.5rem #696969;
 }
