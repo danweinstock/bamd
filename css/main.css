@@ -9,6 +9,7 @@
 header{
     width: 100%;
     height: auto;
+    background-color: rgba(224, 255, 255, 0.7);
 }
 .slogan{
     padding-top: 7rem;
@@ -22,8 +23,8 @@ header{
 .blog-image{
  margin: auto;
  display: block;
- height: 10rem;
  width: 10rem;
+ height: auto;
 }
 figure{
     margin-left: 0;
@@ -34,11 +35,16 @@ figure{
     margin-top: 1em;
 }
 .map{
-    width: 80%;
+    width: 100%;
     max-width: 100%;
     overflow: hidden;
-    height: 80%;
-    margin-left: 10%;
+    height: 100%;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    border: 0;
+
 }
 iframe{
     height: 100%;
