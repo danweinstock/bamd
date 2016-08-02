@@ -7,7 +7,7 @@ body{
 	color: #000;
 }
 /*font size and family*/
-p, a, li, figcaption, button{
+p, a, li, figcaption, button, select, input[type="text"], textarea{
 	font-size: 1rem;
 }
 h1{
@@ -131,7 +131,7 @@ ul{
 .relative{
 	position: relative;
 }
-input[type="submit"]{
+, input[type="text"]{
 	font-size: 1rem;
 }
 /*text-align*/
