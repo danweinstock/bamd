@@ -67,6 +67,9 @@ h6{
 .padding-sm{
 	padding:0.5rem;
 }
+.padding-top-lg{
+	padding-top: 3rem;
+}
 /*margins*/
 .margin-left-xl{
 	margin-left: 5rem;
