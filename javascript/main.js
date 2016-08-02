@@ -1,5 +1,11 @@
 $(document).ready(function(){
 		console.log("Purple Monkey Dishwasher");
+		$('a').on('click', function(e){
+			e.preventDefault();
+			var option = $(this).attr('href');
+			console.log(option);
+			$("html, body").animate({ scrollTop: $(option).offset().top}, 1000);
+		});
 		$(window).on("scroll", function() {
     if($(window).scrollTop() > 500) {
         $(".header").addClass("active");
@@ -13,7 +19,7 @@ $(document).ready(function(){
 			var option = $(this).val();
 			console.log(option);
 			$("html, body").animate({ scrollTop: $('#'+option).offset().top}, 1000);
-		})
+		});
 		$( "#radioset" ).buttonset();
 		$( "#dialog-1" ).dialog({
 			autoOpen: false,

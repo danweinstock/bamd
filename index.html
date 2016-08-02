@@ -14,11 +14,9 @@
 		<script src="javascript/main.js"></script>
 	</head>
 	<body id="home">
-		<header class="clear-after fixed absolute-mobile header">
-			<div class="left">
+		<header class="flex fixed absolute-mobile header">
 				<img class="logo" src="images/random_logo.png" alt="">
-			</div>
-			<nav class="right margin-bottom-lg">
+			<nav class="flex flex-grow-single	justify-end">
 				<ul>
 					<li class="left"><a class="padding-md padding-mobile-md" href="#home">Home</a></li>
 					<li class="left"><a class="padding-md padding-mobile-md" href="#about-us">About Us</a></li>
@@ -27,7 +25,7 @@
 					<li class="left"><a class="padding-md padding-mobile-md" href="#contact">Contact</a></li>	
 				</ul>
 			</nav>
-			<div class="small-nav right ">
+			<div class="small-nav justify-end">
 				<select id="small-nav">
 					<option value="home">Home</option>
 					<option value="about_us">About Us</option>
@@ -37,13 +35,60 @@
 				</select>
 			</div>
 		</header>
-		<section class="hero main clear-after center" id="main">
-			<h1 class="slogan">B.A.M.D.</h1> <h2>The Art of Healthy Web Development</h2>
+		<section class="hero flex flex-column main align-center justify-center text-center" id="main">
+			<h1>B.A.M.D.</h1> 
+			<h2>The Art of Healthy Web Development</h2>
 		</section>
-		<section class="about-us clear-after" id="about-us">
-			<h1 class="center padding-top-lg">About Us</h1>
+		<section class="about-us flex flex-column" id="about-us">
+			<h1 class="text-center">About Us</h1>
 			<h3 class="h3-mobile col-3-4 auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-			<div class="col-3-4 auto clear-after">
+			<div class="flex justify-around mobile-flex-column">
+				<div>
+					<figure class="flex justify-center">
+						<img class="round" src="https://placekitten.com/200/200" alt="Brandon">
+					</figure>
+					<p class="text-center">Branden</p>
+					<p class="text-center">Soccer Aficianado</p>
+					<div class="flex justify-around mobile-justify-center">
+						<a class="mobile-basis" href=""><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						<a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div>
+					<figure class="flex justify-center">
+						<img class="round block auto" src="https://placekitten.com/200/200" alt="Ala">
+					</figure>
+					<p class="text-center">Ala</p>
+					<p class="text-center">Mindfulness Guru</p>
+					<div class="flex justify-around mobile-justify-center">
+						<a class="mobile-basis" href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div>
+						<figure class="flex justify-center">
+						<img class="round" src="https://placekitten.com/200/200" alt="Melissa">
+					</figure>
+					<p class="text-center">Marissa</p>
+					<p class="text-center">Yoga Master</p>
+					 <div class="flex justify-around mobile-justify-center">
+						<a class="mobile-basis" href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						<a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+					 </div>
+				</div>
+				<div>
+					<figure class="flex justify-center">
+						<img class="round" src="https://placekitten.com/200/200" alt="Dan">
+					</figure>
+					<p class="text-center">Dan</p>
+					<p class="text-center">Urban Explorer</p>
+					<div class="flex justify-around mobile-justify-center">
+						<a class="mobile-basis" href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-3-4 auto clear-after">
 				<div class="col-1-4 col-1-1-mobile left center">
 					<figure>
 						<img class="round" src="https://placekitten.com/200/200" alt="Brandon">
@@ -80,54 +125,8 @@
 						<a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
 						<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
 				</div>
-				</div>
-		</section>
-		<!-- div class="flex-content">
-					<div class="flex-column">
-						<figure>
-							<img class="round" src="https://placekitten.com/200/200" alt="Brandon">
-						</figure>
-						<p class="center">Branden</p>
-						<p class="center">Soccer Aficianado</p>
-						<div class="flex-content">
-							<a href=""><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-						</div>
-					</div>
-					<div>
-						<figure>
-							<img class="round block auto" src="https://placekitten.com/200/200" alt="Ala">
-						</figure>
-						<p class="center">Ala</p>
-						<p class="center">Mindfulness Guru</p>
-						<div class="flex-content">
-							<a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-						</div>
-					</div>
-					<div>
-							<figure>
-							<img class="round" src="https://placekitten.com/200/200" alt="Melissa">
-						</figure>
-						<p class="center">Marissa</p>
-						<p class="center">Yoga Master</p>
-						 <div class="flex-content">
-							<a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-							<a href=""><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-						 </div>
-					</div>
-					<div>
-						<figure>
-							<img class="round" src="https://placekitten.com/200/200" alt="Dan">
-						</figure>
-						<p class="center">Dan</p>
-						<p class="center">Urban Explorer</p>
-						<div class="flex-content">
-							<a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-						</div>
-					</div>
 				</div> -->
+		</section>
 		<section class="projects clear-after" id="projects">
 		<h2 class="margin-left-xl padding-top-lg">Recent Projects</h2>
 			<div class="col-3-4 auto clear-after">

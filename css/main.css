@@ -13,6 +13,7 @@ header{
   width: 100%;
   height: auto;
   background-color: #000;
+  max-height: 1000px;
 }
 header.active {
   background: #fff;
@@ -20,9 +21,9 @@ header.active {
 li a.li-active{
   color: #000;
 }
-.slogan{
+/*.slogan{
   padding-top: 7rem;
-}
+}*/
 .blog{
   margin-right: 3rem;
 }

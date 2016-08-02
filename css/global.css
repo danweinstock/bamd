@@ -68,7 +68,7 @@ h6{
 	padding:0.5rem;
 }
 .padding-top-lg{
-	padding-top: 3rem;
+	padding-top: 7.5rem;
 }
 /*margins*/
 .margin-left-xl{
@@ -144,7 +144,7 @@ ul{
 	font-size: 1rem;
 }
 /*text-align*/
-.center{
+.text-center{
 	text-align: center;
 }
 /*vertical align*/
@@ -172,9 +172,43 @@ nav{
 	display: none;
 }
 /*flex*/
-.flex-content{
+.flex{
 	display: flex;
+}
+.flex-column{
+	flex-direction: column;
+}
+.mobile-flex{
+	display: no
+}
+.justify-center{
+	justify-content:center; 
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-around{
 	justify-content: space-around;
+}
+.align-center{
+	align-content: center;
+}
+.flex-grow-single{
+	flex-grow: 1;
+}
+.flex-grow-double{
+	flex-grow: 2;
+}
+@media all and (max-width: 795px){	
+	.mobile-flex-column{
+		flex-direction: column;
+	}
+	.mobile-justify-center{
+		justify-content: center;
+	}
+	.mobile-basis{
+		flex-basis: 7rem;
+	}
 }
 @media all and (max-width: 610px){
 	.padding-mobile-md{
