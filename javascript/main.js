@@ -1,7 +1,7 @@
 $(document).ready(function(){
 		console.log("Purple Monkey Dishwasher");
 		$(window).on("scroll", function() {
-    if($(window).scrollTop() > 430) {
+    if($(window).scrollTop() > 500) {
         $(".header").addClass("active");
         $("li a").addClass("li-active");
     } else {
@@ -9,6 +9,11 @@ $(document).ready(function(){
        $("li a").removeClass("li-active");
     }
 		});
+		$('select').on('change', function(){
+			var option = $(this).val();
+			console.log(option);
+			$("html, body").animate({ scrollTop: $('#'+option).offset().top}, 1000);
+		})
 		$( "#radioset" ).buttonset();
 		$( "#dialog-1" ).dialog({
 			autoOpen: false,

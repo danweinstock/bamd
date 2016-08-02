@@ -86,6 +86,9 @@ h6{
 .margin-bottom-lg{
 	margin-bottom: 1rem;
 }
+.margin-top-lg{
+	margin-top: 1rem;
+}
 .auto{
 	margin: auto;
 }
@@ -100,6 +103,9 @@ img{
 }
 .round{
 	border-radius: 50%;
+}
+.logo{
+	height: 100%;
 }
 /*floats*/
 .left{
@@ -159,6 +165,12 @@ button:hover{
 i{
 	color: #000;
 }
+nav{
+	display: block;
+}
+.small-nav{
+	display: none;
+}
 /*flex*/
 .flex-content{
 	display: flex;
@@ -201,10 +213,16 @@ i{
 	.project-img-mobile{
 		width: 80%;
 	}
-	.no-float{
+	.mobile-no-float{
 		float:none;
 	}
 	.mobile-inline{
 		display: inline;
+	}
+	nav{
+		display: none;
+	}
+	.small-nav{
+		display: block;
 	}
 }
