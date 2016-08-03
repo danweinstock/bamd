@@ -178,6 +178,9 @@ nav{
 .flex-column{
 	flex-direction: column;
 }
+.flex-wrap{
+	flex-wrap: wrap;
+}
 .mobile-flex{
 	display: no
 }
@@ -190,6 +193,9 @@ nav{
 .justify-around{
 	justify-content: space-around;
 }
+.justify-between{
+	justify-content: space-between;
+}
 .align-center{
 	align-content: center;
 }
@@ -199,6 +205,10 @@ nav{
 .flex-grow-double{
 	flex-grow: 2;
 }
+.flex-self-left{
+	align-self: baseline;
+}
+
 @media all and (max-width: 795px){	
 	.mobile-flex-column{
 		flex-direction: column;
@@ -261,5 +271,13 @@ nav{
 	}
 	.mobile-flex-hide{
 		display: none;
+	}
+	.mobile-space-around{
+		justify-content: space-between;
+	}
+}
+@media all and (max-width: 534px){
+	.small-justify-center{
+		justify-content: center;
 	}
 }
