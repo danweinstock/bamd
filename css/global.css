@@ -259,4 +259,7 @@ nav{
 	.small-nav{
 		display: block;
 	}
+	.mobile-flex-hide{
+		display: none;
+	}
 }
