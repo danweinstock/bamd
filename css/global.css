@@ -201,6 +201,18 @@ nav{
 .flex-self-left{
 	align-self: baseline;
 }
+.flex-basis-lg{
+		flex-basis: 7rem;
+	}
+/*carousel*/
+
+.carousel-cell {
+  width: 66%;
+  height: 350px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #F08080;
+}
 
 @media all and (max-width: 795px){	
 	.mobile-flex-column{
@@ -209,9 +221,10 @@ nav{
 	.mobile-justify-center{
 		justify-content: center;
 	}
-	.mobile-basis{
-		flex-basis: 7rem;
+	.mobile-basis-sm{
+		flex-basis: 33%;
 	}
+
 }
 @media all and (max-width: 610px){
 	.padding-mobile-md{
@@ -250,14 +263,14 @@ nav{
 	.project-img-mobile{
 		width: 80%;
 	}
-	.mobile-no-float{
-		float:none;
-	}
 	.mobile-inline{
 		display: inline;
 	}
 	nav{
 		display: none;
+	}
+	.mobile-text-left{
+		text-align: left;
 	}
 	.small-nav{
 		display: block;
