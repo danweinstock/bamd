@@ -133,9 +133,6 @@ ul{
 .relative{
 	position: relative;
 }
-, input[type="text"]{
-	font-size: 1rem;
-}
 /*text-align*/
 .text-center{
 	text-align: center;
@@ -175,7 +172,7 @@ nav{
 	flex-wrap: wrap;
 }
 .mobile-flex{
-	display: no
+	display: flex;
 }
 .justify-center{
 	justify-content:center; 
@@ -204,7 +201,9 @@ nav{
 .flex-basis-lg{
 		flex-basis: 7rem;
 	}
-/*carousel*/
+.carousel{
+	z-index: -1;
+}
 
 .carousel-cell {
   width: 66%;
@@ -224,7 +223,6 @@ nav{
 	.mobile-basis-sm{
 		flex-basis: 33%;
 	}
-
 }
 @media all and (max-width: 610px){
 	.padding-mobile-md{
@@ -239,11 +237,11 @@ nav{
 	.top-margin-mobile{
 		margin-top: 1rem;
 	}
-	.left-margin-mobile-sm{
-		margin-left: 1rem;
-	}
 	.left-margin-mobile-md{
 		margin-left: 2rem;
+	}
+	.left-margin-mobile-sm{
+		margin-left: 1rem;
 	}
 	.absolute-mobile{
 		position: absolute;

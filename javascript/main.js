@@ -8,20 +8,20 @@ $(document).ready(function(){
 		});
 		$(window).on("scroll", function() {
     if($(window).scrollTop() > 500) {
-        $(".header").addClass("active");
-        $("li a").addClass("li-active");
+      $(".header").addClass("active");
+      $("li a").addClass("li-active");
     } else {
-       $(".header").removeClass("active");
-       $("li a").removeClass("li-active");
-    }
+      	$(".header").removeClass("active");
+      	$("li a").removeClass("li-active");
+			}
 		});
 		$('select').on('change', function(){
 			var option = $(this).val();
 			console.log(option);
 			$("html, body").animate({ scrollTop: $('#'+option).offset().top}, 1000);
 		});
-		$( "#radioset" ).buttonset();
-		$( "#dialog-1" ).dialog({
+		$("#radioset" ).buttonset();
+		$("#dialog-1" ).dialog({
 			autoOpen: false,
 			width: 400,
 			buttons: [
@@ -37,9 +37,9 @@ $(document).ready(function(){
 				$( this ).dialog( "close" );
 			}
 		}
-	]
-});
-	$( "#dialog-2" ).dialog({
+			]
+		});
+	$("#dialog-2" ).dialog({
 		autoOpen: false,
 		width: 400,
 		buttons: [
@@ -55,9 +55,9 @@ $(document).ready(function(){
 				$( this ).dialog( "close" );
 			}
 		}
-	]
-});
-	$( "#dialog-3" ).dialog({
+		]
+	});
+	$("#dialog-3" ).dialog({
 		autoOpen: false,
 		width: 400,
 		buttons: [
@@ -109,16 +109,4 @@ $(document).ready(function(){
 		$( "#dialog-4" ).dialog( "open" );
 			event.preventDefault();
 	});
-});
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-
-// element argument can be a selector string
-//   for an individual element
-var flkty = new Flickity( '.main-carousel', {
-  // options
 });
