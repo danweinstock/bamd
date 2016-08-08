@@ -7,7 +7,7 @@ body{
 	color: #000;
 }
 /*font size and family*/
-p, a, li, figcaption, button, select, input[type="text"], textarea{
+p, a, li, figcaption, button, select, input[type="text"], input[type="email"] textarea{
 	font-size: 1rem;
 }
 h1{
@@ -212,7 +212,10 @@ nav{
   border-radius: 5px;
   background-color: #F08080;
 }
-
+.error{
+	display: flex;
+	color: #DC143C;
+}
 @media all and (max-width: 795px){	
 	.mobile-flex-column{
 		flex-direction: column;

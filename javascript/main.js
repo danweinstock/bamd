@@ -109,4 +109,20 @@ $(document).ready(function(){
 		$( "#dialog-4" ).dialog( "open" );
 			event.preventDefault();
 	});
+$('.error').fadeIn(100);
+$("#myForm").validate({
+	rules:{
+		name:{
+			required: true,
+		},
+	email: {
+		required: true,
+		email: true
+				}
+	},			
+	messages: {
+		name:"Please enter your full name",
+		email: "Please enter a valid email address"
+	}
+});
 });

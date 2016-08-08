@@ -13,6 +13,7 @@
 		<script src="javascript/jquery-3.1.0.min.js"></script>
 		<script src="javascript/jquery-ui.min.js"></script>
 		<script src="javascript/flickity.pkgd.js"></script>
+		<script src="javascript/jquery.validate.min.js"></script>
 		<script src="javascript/main.js"></script>
 	</head>
 	<body id="home">
@@ -147,7 +148,7 @@
 						<div class="col-3-4">
 							<h3 class="blog-title h3-mobile bottom-margin-mobile top-margin-mobile left-margin-mobile-sm">Blog 1</h3>
 							<p class="left-margin-mobile-sm">Kitsch brooklyn meh whatever, distillery vice post-ironic disrupt fixie drinking vinegar fashion axe vegan retro. Church-key keffiyeh tattooed, green juice fanny pack brooklyn selfies skateboard normcore kale chips readymade.</p>
-						<div class="right">
+						<div>
 							<button id="dialog-link-1" class="ui-button ui-corner-all ui-widget">
 								Read More
 							</button>
@@ -161,7 +162,7 @@
 					<figure class="col-1-4">
 						<img class="blog-image " src="https://placekitten.com/200/200" alt="Blog Post 2">
 					</figure>
-					<div class="col-3-4 ">
+					<div class="col-3-4">
 						<h3 class="blog-title h3-mobile bottom-margin-mobile top-margin-mobile left-margin-mobile-sm">Blog 2</h3>
 						<p class="left-margin-mobile-sm">Touch water with paw then recoil in horror. Pelt around the house and up and down stairs chasing phantoms human give me attention meow, ignore the squirrels, you'll never catch them anyway for hiss at vacuum cleaner, so spit up on light gray carpet instead of adjacent linoleum chase mice.</p>
 						<div>
@@ -174,14 +175,14 @@
 						</div>
 					</div>
 				 </div>
-				 <div class="flex">
+				<div class="flex">
 					<figure class="col-1-4">
 						<img class="blog-image h3-mobile" src="https://www.fillmurray.com/200/200" alt="Blog Post 3">
 					</figure>
-							<div class="col-3-4">
-					<h3 class="blog-title bottom-margin-mobile top-margin-mobile left-margin-mobile-sm">Blog 3</h3>
-					<p class="left-margin-mobile-sm">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.</p>
-					<div class="right">
+					<div class="col-3-4">
+						<h3 class="blog-title bottom-margin-mobile top-margin-mobile left-margin-mobile-sm">Blog 3</h3>
+						<p class="left-margin-mobile-sm">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.</p>
+						<div>
 							<button id="dialog-link-3" class="ui-button ui-corner-all ui-widget">
 								Read More
 							</button>
@@ -190,8 +191,8 @@
 							</div>
 						</div>
 					</div>
-				 </div>
-				 <div class="flex">
+				</div>
+				<div class="flex">
 					<figure class="col-1-4">
 						<img class="blog-image" src="https://www.placecage.com/200/200" alt="Blog Post 4">
 					</figure>
@@ -204,7 +205,7 @@
 							</button>
 							<div id="dialog-4" title="Blog 4">
 								<p class="blog-scroll">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-							</p>
+								</p>
 							</div>
 						</div>
 					</div> 	
@@ -214,13 +215,13 @@
 		<section class="contact" id="contact">
 			<h2 class="margin-left-xl">Contact Us</h2>
 			 <div class="flex col-3-4 auto">
-					<form name="myForm" class="col-3-4 col-1-1-mobile">
+					<form id="myForm" class="col-3-4 col-1-1-mobile">
 						<div class="name col-1-2 col-1-1-mobile">
-						<label for="name">Name:</label>
+						<label for="name">Name (required)</label>
 						<input type="text" name='name' id='name' placeholder="Name"/><br>
 					</div>
 					<div class="email col-1-2 col-1-1-mobile">
-						 <label for="email">Email:</label>
+						 <label for="email">Email (required) </label>
 						<input type="text" name='email' id='email' placeholder="email"/><br> 	
 					</div>
 					<div class="services margin-top-lg col-1-2">
@@ -232,7 +233,7 @@
 						</select><br>
 					</div>
 					<div class="message col-2-3 col-1-1-mobile">
-						<label for="message" class="top">Message:</label>
+						<label for="message" class="top">Message (optional)</label>
 						<textarea id="message" placeholder="Type your message"></textarea>
 						<p>Subscribe to our newsletter</p>
 								<div id="radioset">
