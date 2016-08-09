@@ -7,7 +7,7 @@ body{
 	color: #000;
 }
 /*font size and family*/
-p, a, li, figcaption, button, select, input[type="text"], input[type="email"] textarea{
+p, a, li, figcaption, button, select, input[type="text"], input[type="email"], textarea{
 	font-size: 1rem;
 }
 h1{
