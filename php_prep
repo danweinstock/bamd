@@ -1,0 +1,5 @@
+within project area title is hardcoded
+
+placeholder: project title
+
+for all project title in projects loop through and auto increment the number for these titles
